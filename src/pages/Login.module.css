@@ -1,0 +1,243 @@
+.leftSideRectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 817px;
+  height: 768px;
+}
+.santConnect {
+  position: absolute;
+  top: 724px;
+  left: 507px;
+  letter-spacing: 0.03em;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+  width: 189px;
+  height: 44px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 0.13%;
+  width: 100%;
+  top: 94.14%;
+  right: 0;
+  bottom: 5.73%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.span {
+  color: var(--color-black);
+}
+.inscrivezVous {
+  color: var(--color-coral);
+}
+.pasDeCompteContainer {
+  position: absolute;
+  top: 436px;
+  left: 194px;
+  letter-spacing: 0.03em;
+  line-height: 22px;
+  display: inline-block;
+  width: 281px;
+  height: 32px;
+  cursor: pointer;
+  color: var(--color-silver);
+}
+.connectezVous,
+.submitChild {
+  position: relative;
+  flex-shrink: 0;
+}
+.submitChild {
+  align-self: stretch;
+  border-radius: var(--br-4xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 37px;
+}
+.connectezVous {
+  font-size: var(--font-size-base);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 157px;
+  height: 27px;
+}
+.antDesignswapLeftOutlinedIcon {
+  position: relative;
+  width: 33px;
+  height: 25px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.connectezVousParent,
+.submit {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.connectezVousParent {
+  width: 185px;
+  height: 37px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 9px;
+  margin-top: -37px;
+}
+.submit {
+  position: absolute;
+  top: 379px;
+  left: 247px;
+  width: 223px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.passwordRectangle {
+  border: 0;
+  background-color: var(--color-snow);
+  position: absolute;
+  top: 31px;
+  left: 0;
+  border-radius: var(--br-9xs);
+  width: 478px;
+  height: 46px;
+}
+.motDePasse,
+.motDePasse1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 300;
+  display: inline-block;
+  width: 94px;
+}
+.motDePasse1 {
+  top: 2px;
+  left: 341px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: inherit;
+  text-align: center;
+  width: 134px;
+  opacity: 0.5;
+}
+.password {
+  position: absolute;
+  top: 223px;
+  left: -3px;
+  width: 478px;
+  height: 77px;
+  font-size: var(--font-size-sm);
+}
+.connexion,
+.raviDeVous {
+  position: absolute;
+  display: inline-block;
+}
+.connexion {
+  top: 31.45px;
+  left: 0;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  width: 365.82px;
+  height: 82.56px;
+}
+.raviDeVous {
+  top: 0;
+  left: 5.98px;
+  letter-spacing: 0.03em;
+  line-height: 22px;
+  color: var(--color-gray-100);
+  width: 202.04px;
+  height: 21.62px;
+}
+.email1 {
+  margin: 0;
+}
+.countryRectangle,
+.email {
+  position: relative;
+  flex-shrink: 0;
+}
+.email {
+  font-weight: 300;
+  display: inline-block;
+  width: 38px;
+  height: 40px;
+}
+.countryRectangle {
+  border: 0;
+  background-color: var(--color-snow);
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  height: 46px;
+  margin-top: -11px;
+}
+.country {
+  position: absolute;
+  top: 104px;
+  left: 0;
+  width: 475px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+}
+.form,
+.santConnect1 {
+  position: absolute;
+  top: 198px;
+  left: 216px;
+  width: 475px;
+  height: 523px;
+  color: var(--color-black);
+}
+.santConnect1 {
+  top: 117px;
+  font-size: var(--font-size-17xl);
+  font-weight: 600;
+  color: var(--color-coral);
+  display: inline-block;
+  width: 283px;
+  height: 66px;
+}
+.logoIcon {
+  position: absolute;
+  top: 96px;
+  left: 526px;
+  border-radius: var(--br-xl);
+  width: 206px;
+  height: 206px;
+  object-fit: cover;
+}
+.backgroundConnexionIcon {
+  position: absolute;
+  top: 0;
+  left: 817px;
+  width: 548px;
+  height: 768px;
+  object-fit: cover;
+}
+.login {
+  position: relative;
+  background-color: var(--color-linen);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
