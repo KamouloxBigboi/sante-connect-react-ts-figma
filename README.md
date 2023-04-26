@@ -1,10 +1,4 @@
 
   # Santé Connect Acces Pages
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
-
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+  Test de mon application avec design créé sur Figma, exporté avec Locofy, validation formulaire sans utilisation de Formik/Yup (onhandle changes =>=...), typescript pour le front - test de différents design pour les pages composantes.
